@@ -25,6 +25,7 @@ COPY calcom/package.json calcom/yarn.lock calcom/.yarnrc.yml calcom/playwright.c
 COPY calcom/.yarn ./.yarn
 COPY calcom/apps/web ./apps/web
 COPY calcom/apps/api/v2 ./apps/api/v2
+COPY calcom/node_modules ./node_modules
 COPY calcom/packages ./packages
 COPY calcom/tests ./tests
 
